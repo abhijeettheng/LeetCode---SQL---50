@@ -1,0 +1,5 @@
+1068. Product Sales Analysis I
+
+select Product.product_name, Sales.year, Sales.price
+from Product
+join Sales on product.product_id = sales.product_id;
